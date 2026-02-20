@@ -14,6 +14,7 @@ public class amazon {
 	
 		
 		driver.findElement(By.xpath("//div[@id='nav-flyout-icp-footer-flyout']/descendant::span[text()='मराठी']/preceding-sibling::i[@class='icp-radio']"));
+		System.out.println("changesfrom amazon branch");
 	}
 
 }
